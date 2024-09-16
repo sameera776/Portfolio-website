@@ -1,0 +1,32 @@
+
+$(".greet").click(function(){ 
+        var audio=new Audio("./sounds/welcome.mp3");
+        audio.play();
+});
+$(document).ready(function(){
+ $(".togg").hide();
+});
+$(".bs1").click(function(){
+  $(".s1").toggle();
+});
+$(".bs2").click(function(){
+  $(".s2").toggle();
+});
+$(".bs3").click(function(){
+  $(".s3").toggle();
+});
+$(".bs4").click(function(){
+  $(".s4").toggle();
+});
+$(".bs5").click(function(){
+  $(".s5").toggle();
+});
+$(".bp1").click(function(){
+    $(".p1").toggle();
+  });
+$(".bp2").click(function(){
+    $(".p2").toggle();
+  });
+$(".bp3").click(function(){
+    $(".p3").toggle();
+  });
