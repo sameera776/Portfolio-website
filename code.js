@@ -1,7 +1,112 @@
 
+var count1=0,count2=0,count3=0,count4=0,count5=0,c1=0,c2=0,c3=0;
 $(".greet").click(function(){ 
         var audio=new Audio("./sounds/welcome.mp3");
         audio.play();
+});
+$(".bs1").click(function(){
+   var audio=new Audio('./sounds/view.mp3');
+   audio.play();
+   if(count1%2===0)
+   {
+    $(".bs1").html("CLOSE");
+   }
+   else
+   {
+    $(".bs1").html("VIEW");
+   }
+   count1++;
+});
+$(".bs2").click(function(){
+   var audio=new Audio('./sounds/view.mp3');
+   audio.play();
+   if(count2%2===0)
+   {
+    $(".bs2").html("CLOSE");
+   }
+   else
+   {
+    $(".bs2").html("VIEW");
+   }
+   count2++;
+});
+$(".bs3").click(function(){
+   var audio=new Audio('./sounds/view.mp3');
+   audio.play();
+   if(count3%2===0)
+   {
+    $(".bs3").html("CLOSE");
+   }
+   else
+   {
+    $(".bs3").html("VIEW");
+   }
+   count3++;
+});
+$(".bs4").click(function(){
+   var audio=new Audio('./sounds/view.mp3');
+   audio.play();
+   if(count4%2===0)
+   {
+    $(".bs4").html("CLOSE");
+   }
+   else
+   {
+    $(".bs4").html("VIEW");
+   }
+   count4++;
+});
+$(".bs5").click(function(){
+   var audio=new Audio('./sounds/view.mp3');
+   audio.play();
+   if(count5%2===0)
+   {
+    $(".bs5").html("CLOSE");
+   }
+   else
+   {
+    $(".bs5").html("VIEW");
+   }
+   count5++;
+});
+$(".bp1").click(function(){
+   var audio=new Audio('./sounds/view.mp3');
+   audio.play();
+   if(c1%2===0)
+   {
+    $(".bp1").html("CLOSE");
+   }
+   else
+   {
+    $(".bp1").html("VIEW");
+   }
+   c1++;
+});
+$(".bp2").click(function(){
+   var audio=new Audio('./sounds/view.mp3');
+   audio.play();
+   if(c2%2===0)
+   {
+    $(".bp2").html("CLOSE");
+   }
+   else
+   {
+    $(".bp2").html("VIEW");
+   }
+   c2++;
+});
+$(".bp3").click(function(){
+   var audio=new Audio('./sounds/view.mp3');
+   audio.play();
+   if(c3%2===0)
+   {
+    $(".bp3").html("CLOSE");
+   }
+   else
+   {
+    $(".bp3").html("VIEW");
+   }
+   c3++;
 });
 $(document).ready(function(){
  $(".togg").hide();
@@ -30,3 +135,5 @@ $(".bp2").click(function(){
 $(".bp3").click(function(){
     $(".p3").toggle();
   });
+  
+
